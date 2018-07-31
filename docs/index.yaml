@@ -3,7 +3,7 @@ entries:
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-31T14:04:11.577529019+10:00
+    created: 2018-07-31T15:11:58.258386027+10:00
     description: A Helm chart for Kubernetes
     digest: 08abeb3542e8a9ab90df776d3a646199da8be0ebfc5198ef032190938d49e30a
     name: mychart
@@ -13,11 +13,36 @@ entries:
   nginx:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-31T14:04:11.577961982+10:00
+    created: 2018-07-31T15:11:58.258862478+10:00
     description: Nginx
     digest: ed35961844cc8d4ebc4a71497799b880ce73e0551ac897f32814249ed1b8f11c
     name: nginx
     urls:
     - https://panho66.github.io/helm-chart/nginx-0.1.0.tgz
     version: 0.1.0
-generated: 2018-07-31T14:04:11.576695149+10:00
+  nginx-ingress:
+  - appVersion: 0.15.0
+    created: 2018-07-31T15:11:58.260495711+10:00
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: d6c9b5b9ea220e1b68a73dd0825643e1babc092512cbe542864161e952eaf2ce
+    engine: gotpl
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    maintainers:
+    - email: jack.zampolin@gmail.com
+      name: jackzampolin
+    - email: mgoodness@gmail.com
+      name: mgoodness
+    - email: chance.zibolski@coreos.com
+      name: chancez
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://panho66.github.io/helm-chart/nginx-ingress-0.23.0.tgz
+    version: 0.23.0
+generated: 2018-07-31T15:11:58.257620726+10:00
