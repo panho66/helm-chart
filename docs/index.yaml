@@ -3,11 +3,21 @@ entries:
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-31T12:33:07.743934964+10:00
+    created: 2018-07-31T14:04:11.577529019+10:00
     description: A Helm chart for Kubernetes
     digest: 08abeb3542e8a9ab90df776d3a646199da8be0ebfc5198ef032190938d49e30a
     name: mychart
     urls:
     - https://panho66.github.io/helm-chart/mychart-0.1.0.tgz
     version: 0.1.0
-generated: 2018-07-31T12:33:07.743437536+10:00
+  nginx:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-07-31T14:04:11.577961982+10:00
+    description: Nginx
+    digest: ed35961844cc8d4ebc4a71497799b880ce73e0551ac897f32814249ed1b8f11c
+    name: nginx
+    urls:
+    - https://panho66.github.io/helm-chart/nginx-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-07-31T14:04:11.576695149+10:00
