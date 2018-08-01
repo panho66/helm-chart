@@ -17,6 +17,9 @@ ingress:
   enabled: true
   annotations:
     kubernetes.io/ingress.class: nginx-webinsure
+    nginx.ingress.kubernetes.io/affinity: cookie
+    nginx.ingress.kubernetes.io/session-cookie-name: route
+    nginx.ingress.kubernetes.io/session-cookie-hash: sha1
     # kubernetes.io/tls-acme: "true"
   path: /
   hosts:
