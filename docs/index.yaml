@@ -1,19 +1,9 @@
 apiVersion: v1
 entries:
-  mychart:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2018-08-01T15:22:17.152561154+10:00
-    description: A Helm chart for Kubernetes
-    digest: 08abeb3542e8a9ab90df776d3a646199da8be0ebfc5198ef032190938d49e30a
-    name: mychart
-    urls:
-    - https://panho66.github.io/helm-chart/mychart-0.1.0.tgz
-    version: 0.1.0
   nginx:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-01T15:22:17.152859609+10:00
+    created: 2018-08-01T15:24:53.490325246+10:00
     description: Nginx
     digest: 562abddb9ab8d09dd1cddd5da6ff24e458602a88a5c5adc7a39f4a351a5d585f
     name: nginx
@@ -22,7 +12,7 @@ entries:
     version: 0.1.0
   nginx-ingress:
   - appVersion: 0.15.0
-    created: 2018-08-01T15:22:17.153879726+10:00
+    created: 2018-08-01T15:24:53.491376706+10:00
     description: An nginx Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 514feacdd2853ee764e16b07214e8d8ae9ee521e7a795809ce6c3a67800341c0
@@ -45,4 +35,4 @@ entries:
     urls:
     - https://panho66.github.io/helm-chart/nginx-ingress-0.23.0.tgz
     version: 0.23.0
-generated: 2018-08-01T15:22:17.152005113+10:00
+generated: 2018-08-01T15:24:53.489816657+10:00
